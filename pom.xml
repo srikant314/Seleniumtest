@@ -36,8 +36,8 @@
     </dependency>
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-api</artifactId>
-      <version>3.11.0</version>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>3.141.59</version>
     </dependency>
   </dependencies>
   <build>
