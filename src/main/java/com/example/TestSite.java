@@ -16,7 +16,7 @@ public class TestSite {
 
     WebDriver driver = new ChromeDriver(chromeOptions);
 
-    driver.get("http://192.168.56.102/content/about-us.php");
+    driver.get("http://192.168.56.106/content/about-us.php");
 
     try {
       Thread.sleep(1000);
