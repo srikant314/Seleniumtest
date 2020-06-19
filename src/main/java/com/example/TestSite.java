@@ -1,17 +1,15 @@
-package com.example;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 //import org.testng.annotations.Test;
-public final class TestSite {
+public class TestSite {
   private TestSite() {
   }
 
   public static void main(String[] args) {
     System.out.println("Hello!!!");
-    System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+    System.setProperty("webdriver.chrome.driver", "D:\\Software\\chromedriver.exe");
     ChromeOptions chromeOptions = new ChromeOptions();
     chromeOptions.addArguments("--headless");
     chromeOptions.addArguments("--no-sandbox");
